@@ -30,7 +30,7 @@
   #burgerBtn {
     background: 0;
     border: 0;
-    margin-right: 1400px;
+    margin-right: 100px;
     margin-top: 20px;
   }
   
@@ -38,7 +38,7 @@
     background-color: #f6f8ff;
     height: 100%;
     display: none;
-    margin-right: 1400px;
+    margin-right: 100px;
   }
   
   .burger-container.show {
