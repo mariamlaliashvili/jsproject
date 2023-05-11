@@ -80,9 +80,11 @@
   
   #moon,#sun {
     cursor: pointer;
+    margin-right: 50px;
   }
   #sun {
     display: none;
+    
   }
   .icon{
     width: 50%;
