@@ -78,7 +78,7 @@
   
   #moon,#sun {
     cursor: pointer;
-    margin-right: 50px;
+    margin-left: 20px;
   }
   #sun {
     display: none;
