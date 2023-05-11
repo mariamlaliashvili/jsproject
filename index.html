@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a0f7d17944.js" crossorigin="anonymous"></script>
+    <title>Devfinder</title>
+  </head>
+  <body>
+    <header>
+      <button id="burgerBtn" type="button">🍔</button>
+    </header>
+
+    <div id="burgerContainer" class="burger-container">
+      <a href="next.html" target="_blank">slider</a>
+    </div>
+     
+    <div class="first">
+      <h1 class="devfinder">devfinder</h1>
+        <h3 class="text1"></h3>
+        <option id="sun" value="light">🔆</option>
+          <option id="moon" value="dark">🌙</option>
+      </div>
+    </div>
+    <form class="form icon">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input
+        type="text"
+        name="user"
+        id="user1"
+        placeholder="Search GitHub username…"
+      />
+      <button class="btn" type="submit">search</button>
+    </form>
+    <div class="result"></div>
+    <div class="information icon">
+      <img src="" alt="" class="photo1" />
+      <div class="info">
+        <div class="content">
+          <img src="" alt="photo2" class="photo2" />
+          <div>
+            <div class="saxeli">
+              <h2 class="name"></h2>
+              <h3 class="login"></h3>
+            </div>
+            <p class="tarighi"></p>
+          </div>
+        </div>
+        <p class="inf"></p>
+        <div class="rates">
+          <div class="rate">
+            <h3 class="rate-title">repos</h3>
+            <h3 class="amount" id="repos"></h3>
+          </div>
+          <div class="rate">
+            <h3 class="rate-title">followers</h3>
+            <h3 class="amount" id="followers"></h3>
+          </div>
+          <div class="rate">
+            <h3 class="rate-title">following</h3>
+            <h3 class="amount" id="following"></h3>
+          </div>
+        </div>
+        <div class="mdeb">
+          <div class="minfo">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3 class="mtext" id="pin"></h3>
+          </div>
+          <div class="minfo">
+            <i class="fa-solid fa-link"></i>
+            <a href="#" class="mtext mlink" id="blog"></a>
+          </div>
+          <div class="minfo">
+            <i class="fa-solid fa-building"></i>
+            <h3 class="mtext" id="company"></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
