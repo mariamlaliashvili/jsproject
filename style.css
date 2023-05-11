@@ -42,7 +42,7 @@
   .burger-container.show {
     display: block;
   }
-  .first {
+  .header {
     max-width: 100%;
     display: flex;
     align-items: center;
